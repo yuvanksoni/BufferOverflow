@@ -10,7 +10,7 @@ try:
         s.close()
 	
 except: 
-        print ("Fuzzing Crashed At %s Bytes")
+        print ("Error while Connecting")
         sys.exit()
 
 
