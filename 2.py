@@ -11,3 +11,6 @@ try:
 except: 
         print ("Fuzzing Crashed At %s Bytes")
         sys.exit()
+
+
+#/usr/share/metasploit-framework/tools/exploit/pattern_create.rb -l 3000 
