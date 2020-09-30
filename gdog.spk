@@ -1,3 +1,7 @@
 s_readline();
 s_string("GDOG ");
 s_string_variable("0");
+
+
+#This is for Testing that the Given command is Vulnerable or not 
+#GDOG is just an Example, You can use any of the given commands
