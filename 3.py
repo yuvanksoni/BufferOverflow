@@ -12,3 +12,6 @@ try:
 except: 
         print ("Fuzzing Crashed At %s Bytes")
         sys.exit()
+
+
+# /usr/share/metasploit-framework/tools/exploit/pattern_offset.rb -l 3000 -q 386F4337
